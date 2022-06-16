@@ -5,7 +5,7 @@ both dynamic and static shape onnx modle output hava no loss of accuracy compare
 there ere large loss of accuracy in dynamic trt modle output compare with torch output.
 ## 2.download modle
 because github file size limit,you need download onnx and trt modle from url:https://pan.baidu.com/s/1ItbXXFg_Wnu218D3IsJeRA?pwd=jfts,<br>
-put modle file to Same directory whit test script
+put all modle file to Same directory whit test script
 ## 3.run onnx modle(dynamic shape and static shape)
   compare  Loss of accuracy between torch output and onnx(dynamic shape and static shape figure) output<br>
       `python onnx_run.py`<br>
